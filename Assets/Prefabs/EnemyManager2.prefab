@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152126596134518850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 152126596134518852}
+  - component: {fileID: 152126596134518851}
+  m_Layer: 0
+  m_Name: EnemyManager2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152126596134518852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152126596134518850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &152126596134518851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152126596134518850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2653beae996916a45a0c3f152916eac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemyArray:
+  - {fileID: 2108246117956934670, guid: c8559600807b73847a943081664a0330, type: 3}
+  - {fileID: 6933577467567698699, guid: 34470ab7cbf3bb24cba647296402c427, type: 3}
+  - {fileID: 4708967500534241238, guid: d1bea8febc65a824697adf08183514e1, type: 3}
+  - {fileID: 5840209663131876958, guid: 18734e31a039a754792e04bde1858bf6, type: 3}
+  - {fileID: 488658484848784119, guid: 90936c9adc8f1334cb4f9cd127ffc925, type: 3}
+  - {fileID: 7110654856148931098, guid: 28ee4cad967132f439ffb986a4ff69ac, type: 3}
+  - {fileID: 95514114987215178, guid: 556959fac61695245bb1a5706df964db, type: 3}
+  - {fileID: 7110654856148931098, guid: 1c20c26e4ed7f9348a19e43f02e92869, type: 3}
+  spawnTime: 3
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waveArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waveNumber: 0
+  remainingMonster: 00000000000000000000000000000000
+  remaingEnemies: 0
